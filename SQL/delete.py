@@ -9,8 +9,8 @@ sql = "DELETE FROM USER WHERE name = 'Alice'"
 
 #sql = 'INSERT INTO USER (id, name, age, email, mobile) values(?, ?, ?, ?, ?)'
 
-cur.execute("DELETE FROM USER WHERE name='Alice';")
-conn.commit()
+#cur.execute("DELETE FROM USER WHERE name='Alice';")
+#conn.commit()
 
 #with con:
 #    con.executemany(sql, data)
